@@ -1,9 +1,12 @@
+@extends('layout')
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>{{ $heading }}</title>
 </head>
 <body>
+@section('content')
   <h1>{{ $heading }}</h1>
 
 <!--
@@ -24,6 +27,7 @@
     <p>No Listings Found.</p>
   @endunless
 
+@endsection
 
 </body>
   
