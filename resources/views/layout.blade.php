@@ -9,5 +9,7 @@
 <body>
   <h1>laragigs</h1>
   @yield('content')
+
+
 </body>
 </html>
